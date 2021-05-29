@@ -11,6 +11,7 @@ ALLOWED_HOSTS = ['*']
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+WAGTAILADMIN_STATIC_FILE_VERSION_STRINGS = False
 
 try:
     from .local import *

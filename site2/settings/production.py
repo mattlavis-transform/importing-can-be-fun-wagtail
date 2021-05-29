@@ -27,3 +27,5 @@ COMPRESS_CSS_FILTERS = [
     'compressor.filters.cssmin.CSSMinFilter',
 ]
 COMPRESS_CSS_HASHING_METHOD = 'content'
+
+WAGTAILADMIN_STATIC_FILE_VERSION_STRINGS = False
