@@ -8,3 +8,4 @@ env/
 /media/
 .env
 .vscode
+db.sqlite3
